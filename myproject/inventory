@@ -1,0 +1,11 @@
+workstation
+
+[mydev]
+server[a:b]
+
+[mytest]
+server[c:d]
+
+[myprod]
+server[e:f]
+

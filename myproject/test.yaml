@@ -1,0 +1,10 @@
+---
+- name: my first play
+  hosts: servera,serverb
+#  remote_user: student
+  become: true
+  tasks:
+  - name: run a command
+    ansible.builtin.command: sleep 2m
+
+
